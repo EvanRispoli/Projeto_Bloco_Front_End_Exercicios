@@ -1,0 +1,31 @@
+GET http://localhost:3001/events
+###
+
+GET http://localhost:3001/events/01
+###
+
+POST  http://localhost:3001/events
+Content-Type: application/json
+
+{
+    "id":"05",
+    "name":"Teatro",
+    "date":"10/07/2022"
+}
+###
+
+PUT  http://localhost:3001/events/03
+Content-Type: application/json
+
+{
+    "id":"01",
+    "name":"Cinema",
+    "date":"02/07/2022"
+}
+###
+
+PATCH  http://localhost:3001/events
+###
+
+DELETE  http://localhost:3001/events/04
+###
